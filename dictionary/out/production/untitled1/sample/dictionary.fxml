@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.dictionaryController">
+   <children>
+      <Label layoutX="193.0" layoutY="147.0" prefHeight="53.0" prefWidth="215.0" text="DICTIONARY" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="248.0" layoutY="337.0" mnemonicParsing="false" onAction="#changeSceneSetting" prefHeight="25.0" prefWidth="104.0" text="Setting" />
+      <Button layoutX="261.0" layoutY="234.0" mnemonicParsing="false" onAction="#translate" prefHeight="25.0" prefWidth="80.0" text="Translate" />
+      <TextField fx:id="englishText" layoutX="28.0" layoutY="234.0" prefHeight="37.0" prefWidth="201.0" promptText="Enter english word" />
+      <TextField fx:id="vietnameseText" layoutX="370.0" layoutY="234.0" prefHeight="37.0" prefWidth="190.0" promptText="Mean" />
+      <Button layoutX="280.0" layoutY="271.0" mnemonicParsing="false" onAction="#clear" text="clear" />
+      <Button layoutX="508.0" layoutY="337.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+   </children>
+</AnchorPane>
